@@ -308,9 +308,13 @@ a:hover {
 }
 /* Larger than desktop */
 @media (min-width: 1000px) {
+	#content-box{
+		max-width:1160px;
+	}
 	.block-item{
 		height:16.66vh;
 		max-width:490px;
+		float:right;
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -331,4 +335,10 @@ a:hover {
 	h1{
 		font-size: 40px;
 		line-height: 48px;}	
+	.tint-img{
+		width:130%;
+	}
+	.tint h2{
+		top:35%;
+	}
 }

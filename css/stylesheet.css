@@ -309,7 +309,7 @@ a:hover {
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	#content-box{
-		max-width:1160px;
+		max-width:860px;
 	}
 	.block-item{
 		height:16.66vh;

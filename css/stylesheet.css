@@ -313,8 +313,7 @@ a:hover {
 	}
 	.block-item{
 		height:16.66vh;
-		/*max-width:490px;*/
-		max-width:580px;
+		max-width:490px;
 		float:right;
 	}
 }
@@ -341,5 +340,8 @@ a:hover {
 	}
 	.tint h2{
 		top:35%;
+	}
+	.block-item{
+		max-width:580px;
 	}
 }

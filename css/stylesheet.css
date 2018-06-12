@@ -169,6 +169,13 @@ a:hover {
   .close svg:hover path{
   	fill:#D2D2D2;
   }
+  .block-item figure{
+	  margin:0;width:100%; 
+	  background-size:cover !important;
+	  -webkit-background-size: cover !important;
+ 	 -moz-background-size: cover !important;
+ 	 -o-background-size: cover !important;
+	  height:100%;}
   /** tint **/
   .tint {
     position: relative;
@@ -311,10 +318,11 @@ a:hover {
 	#content-box{
 		max-width:860px;
 	}
+	#content-box.seven{max-width:680px;}
 	.block-item{
 		height:16.66vh;
 		max-width:490px;
-		float:right;
+		/*float:right;*/
 	}
 }
 @media screen and (max-width: 1200px) {
